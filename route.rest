@@ -1,0 +1,29 @@
+GET http://localhost:4000/subscribers/
+
+###
+
+POST http://localhost:4000/subscribers
+Content-Type: application/json
+
+{
+        "name": "Sam",
+        "age": 15,
+        "subStatus": true,
+        "subDate": ""
+}
+
+
+###
+
+
+DELETE http://localhost:4000/subscribers/6032e54e7e850c21c057c27a
+
+###
+
+PATCH http://localhost:4000/subscribers/6032e52f7e850c21c057c279
+CONTENT-Type: application/json
+
+{
+    "name": "Mohamud Yusuf Mussa"
+
+}
