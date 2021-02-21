@@ -1,3 +1,5 @@
+'use strict';
+
 require('dotenv').config();
 
 //going to have my server info in here.
